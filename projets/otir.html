@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>O'Tir</title>
+</head>
+<body class="article-page">
+    <header>
+        <div class="container header__container">
+            <a class="logo" href="/">db</a>
+            <nav>
+                <ul>
+                    <li><a href="/#mes-realisations">Mes réalisations</a></li>
+                    <li><a href="/#contact">Me contacter</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="article">
+            <div class="container">
+                <h1 class="h1"><span>O'Tir</span></h1>
+                <div class="grid">
+                    <img src="../images/otir.webp" alt="OTir">
+                    <div>
+                        <h2>Sécurité du site</h2>
+                        <p>J’ai configuré 2 firewalls distincts pour séparer la connexion à la partie licencié et la connexion à la partie administration.<br>
+                        De plus, puisque le club dispose d'une salle commune avec un poste pour se connecter au site club, j'ai développé une fonctionnalité de déconnexion automatique en fonction du changement de l'URL par l'utilisateur. Ainsi, lorsqu'un utilisateur ayant les droits administrateur quitte sa partie d'administration pour se rendre sur la partie publique ou licenciée, il est automatiquement déconnecté.</p>
+                    </div>
+                    <div>
+                        <h2>Projet full Symfony</h2>
+                        <p>Le projet O’tir est entièrement basé sur le framework Symfony.<br>
+                        Il s'agit d'un site web pour un club de tir à l'arc. Le club a besoin d'une section destinée au grand public pour y faire connaître les informations générales (tarifs, horaires...), une zone réservée aux licenciés pour que ces derniers puissent vérifier que leurs informations de contact sont à jour, ainsi qu'un espace administration afin d'améliorer la gestion des licenciés, cours et tarifs.<br>
+                        J'ai travaillé sur la totalité de ce projet : conception, développement et mise en production.</p>
+                    </div>
+                    <div>
+                        <h2>Gestion des membres simplifiée</h2>
+                        <p>La partie d'administration dispose de plusieurs fonctionnalité pour faciliter la gestion des membres : outil de tri, pagination et outil de recherche.</p>
+                        <img src="../images/otir-backoffice.webp" alt="OTir backoffice">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Réalisé par Dylan Bru</p>
+            <a href="/mentions-legales.html">Mentions légales</a>
+        </div>
+    </footer>
+</body>
+</html>

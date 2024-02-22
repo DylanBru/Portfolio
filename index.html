@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dylan Bru | Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="container header__container">
+            <a class="logo" href="/">db</a>
+            <nav>
+                <ul>
+                    <li><a href="#mes-realisations">Mes réalisations</a></li>
+                    <li><a href="#contact">Me contacter</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="profil">
+            <div class="container profil__container">
+                <div>
+                    <p>Bonjour, je suis</p>
+                    <h1>
+                        <span class="profil__name">Dylan Bru</span>
+                        <span>Développeur Web Fullstack - Spécialisé Symfony</span>
+                    </h1>
+                </div>
+                <img class="profil__picture" src="./images/photo-sans-fond.webp" alt="Dylan Bru">
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <h2 class="h1"><span>À propos de moi</span></h2>
+                <div>
+                    <p>Passionné des bonnes pratiques, j'aime le code propre et bien structuré.<br>
+                    Je travaille en méthodologie agile.</p>
+                    <p>Je suis quelqu'un de curieux dans la vie de tous les jours et j'aime approfondir les choses que j'apprends.</p>
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="container">
+                <h2 class="h1"><span>Mes compétences</span></h2>
+                <div class="cards">
+                    <div class="cards__item">
+                        <img src="./images/symfony.svg" alt="symfony">
+                        <img src="./images/php.svg" alt="php">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Symfony</li>
+                            <li>PHP/SQL</li>
+                        </ul>
+                    </div>
+                    <div class="cards__item">
+                        <img src="./images/javascript.svg" alt="javascript">
+                        <img src="./images/tailwind.svg" alt="tailwind">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>Javascript/Ajax</li>
+                            <li>Tailwind/Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="cards__item">
+                        <img src="./images/github.svg" alt="github">
+                        <img src="./images/wordpress.svg" alt="wordpress">
+                        <h3>Autres</h3>
+                        <ul>
+                            <li>Git/GitHub</li>
+                            <li>Wordpress</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="mes-realisations">
+            <div class="container">
+                <h2 class="h1"><span>Mes réalisations</span></h2>
+                <div class="cards">
+                    <a class="cards__item" href="/projets/portfolio.html">
+                        <img src="./images/portfolio.webp" alt="Portfolio">
+                        <h3>Portfolio</h3>
+                    </a>
+                    <a class="cards__item" href="/projets/otir.html">
+                        <img src="./images/otir.webp" alt="OTir">
+                        <h3>O'Tir</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="h1"><span>Me contacter</span></h2>
+                <ul class="contact-cards">
+                    <li class="contact-cards__item">
+                        <a href="mailto:dylan.bru@gmail.com">
+                            <img src="./images/mail.svg" alt="mail">
+                            dylan.bru@gmail.com
+                        </a>
+                    </li>
+                    <li class="contact-cards__item">
+                        <a href="tel:+33787756282">
+                            <img src="./images/phone.svg" alt="phone">
+                            07 87 75 62 82
+                        </a>
+                    </li>
+                    <li class="contact-cards__item">
+                        <a href="https://www.linkedin.com/in/dylanbru">
+                            <img src="./images/linkedin.svg" alt="linkedin">
+                            Linkedin
+                        </a>
+                    </li>
+                    <li class="contact-cards__item">
+                        <a href="https://github.com/DylanBru">
+                            <img src="./images/github-follow.svg" alt="github">
+                            GitHub
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Réalisé par Dylan Bru</p>
+            <a href="/mentions-legales.html">Mentions légales</a>
+        </div>
+    </footer>
+</body>
+</html>
