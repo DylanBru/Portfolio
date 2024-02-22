@@ -412,6 +412,16 @@ footer .container {
 ----------------------------------------------- */ 
 
 @media screen and (max-width: 991px) {
+    header {
+        padding: 2em 2em;
+        position: inherit;
+        background-color: var(--bg-color);
+    }
+    
+    section {
+        padding: 6em 2em;
+    }
+
     nav {
         margin: auto;
     }
@@ -425,11 +435,6 @@ footer .container {
         align-items: center;
     }
     
-    header {
-        position: inherit;
-        background-color: var(--bg-color);
-    }
-
     .cards,
     .projects .cards {
         grid-template-columns: repeat(1, 1fr);
