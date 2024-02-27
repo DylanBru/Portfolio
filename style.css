@@ -305,6 +305,7 @@ h1 > span {
 
 .projects img {
     max-width: 100%;
+    height: auto;
     border-radius: var(--border-radius);
 }
 
@@ -386,6 +387,7 @@ footer .container {
 
 .article-page .grid img {
     width: 100%;
+    height: auto;
     border: 1px solid var(--main-color);
     border-radius: var(--border-radius);
 }
