@@ -93,7 +93,9 @@ section:nth-child(5) {
     border-radius: var(--border-radius);
 }
 
-.h1 {
+.main-page h2,
+.legal-notice h1,
+.article-page h1 {
     position: relative;
     display: inline-block;
     color: var(--main-color);
@@ -104,7 +106,13 @@ section:nth-child(5) {
     margin-bottom: 1.5em;
 }
 
-.h1::after {
+.main-page h2{
+    margin-top: 0.8em;
+}
+
+.main-page h2::after,
+.legal-notice h1::after,
+.article-page h1::after {
     content: "";
     position: absolute;
     bottom: -0.15em;
@@ -115,12 +123,15 @@ section:nth-child(5) {
     border-radius: 4px;
 }
 
-.h1 span {
+.main-page h2 span,
+.legal-notice h1 span,
+.article-page h1 span {
     position: relative;
     z-index: 1;
 }
 
-h2 {
+.legal-notice h2,
+.article-page h2 {
     font-weight: 400;
     font-size: 1.5em;
     line-height: 1;
@@ -447,11 +458,14 @@ footer .container {
 }
 
 @media screen and (min-width: 992px) {
-    .h1 {
+    .main-page h2,
+    .legal-notice h1,
+    .article-page h1 {
         font-size: 3em;
     }
 
-    h2 {
+    .legal-notice h2,
+    .article-page h2 {
         font-size: 2em;
     }
 
